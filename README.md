@@ -41,3 +41,6 @@ We want from him to come up with an automated test for the api. No guidance here
 	pip install -r requirements.txt
 	python sorter.py [FOLDER TO INPUT DATA] -o [OUTPUT FILENAME] -d [DO NOT REMOVE DUPLCIATES]
 	```
+
+# Notes
+	This has only been tested on Linux using 2.7
