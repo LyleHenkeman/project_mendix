@@ -31,3 +31,13 @@ Secure the API setting up an SSL, so the service supports https.
 Create a Mendix app which consumes the api and enables the user to upload the files, input of the algorithm, plus returns the output of the service, the resulting file.
 
 We want from him to come up with an automated test for the api. No guidance here, free choice.
+
+
+# Running
+	Install Python
+	Install virtualenv
+	source the virtualenv	
+	```
+	pip install -r requirements.txt
+	python sorter.py [FOLDER TO INPUT DATA] -o [OUTPUT FILENAME] -d [DO NOT REMOVE DUPLCIATES]
+	```
