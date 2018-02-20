@@ -43,4 +43,4 @@ We want from him to come up with an automated test for the api. No guidance here
 	```
 
 # Notes
-	This has only been tested on Linux using 2.7
+	This has only been tested on Linux using Python 2.7
