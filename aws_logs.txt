@@ -1,0 +1,497 @@
+(venv) ➜  .ssh aws ec2 get-console-output --instance-id i-00cdf07dbb64d11a4
+i-00cdf07dbb64d11a4	[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2400.227 MHz processor
+[    0.024000] Calibrating delay loop (skipped), value calculated using timer frequency.. 4800.10 BogoMIPS (lpj=9600208)
+[    0.028005] pid_max: default: 32768 minimum: 301
+[    0.030794] ACPI: Core revision 20160831
+[    0.038868] ACPI: 3 ACPI AML tables successfully acquired and loaded
+[    0.042922] Security Framework initialized
+[    0.044087] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.048175] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.052084] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+[    0.056008] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+[    0.060233] CPU: Physical Processor ID: 0
+[    0.064016] mce: CPU supports 2 MCE banks
+[    0.068023] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+[    0.071605] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+[    0.076011] Spectre V2 mitigation: Mitigation: Full generic retpoline
+[    0.093565] ftrace: allocating 21933 entries in 86 pages
+[    0.120114] smpboot: Max logical packages: 15
+[    0.124611] x2apic: IRQ remapping doesn't support X2APIC mode
+[    0.128006] Switched APIC routing to physical flat.
+[    0.134072] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+[    0.179711] clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+[    0.184017] installing Xen timer for CPU 0
+[    0.188078] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz (family: 0x6, model: 0x3f, stepping: 0x2)
+[    0.194297] cpu 0 spinlock event irq 53
+[    0.196005] Performance Events: unsupported p6 CPU model 63 no PMU driver, software events only.
+[    0.200524] x86: Booted up 1 node, 1 CPUs
+[    0.203274] smpboot: Total of 1 processors activated (4800.10 BogoMIPS)
+[    0.204365] devtmpfs: initialized
+[    0.206782] x86/mm: Memory block size: 128MB
+[    0.209396] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.212020] futex hash table entries: 4096 (order: 6, 262144 bytes)
+[    0.215989] NET: Registered protocol family 16
+[    0.216249] cpuidle: using governor ladder
+[    0.220011] cpuidle: using governor menu
+[    0.224038] ACPI: bus type PCI registered
+[    0.226921] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.228256] PCI: Using configuration type 1 for base access
+[    0.233534] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.236194] ACPI: Added _OSI(Module Device)
+[    0.238757] ACPI: Added _OSI(Processor Device)
+[    0.240013] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.242672] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.247195] ACPI: Interpreter enabled
+[    0.248019] ACPI: (supports S0 S4 S5)
+[    0.250254] ACPI: Using IOAPIC for interrupt routing
+[    0.252034] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.298881] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.300013] acpi PNP0A03:00: _OSC: OS supports [Segments MSI]
+[    0.303492] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+[    0.304016] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+[    0.309046] acpiphp: Slot [0] registered
+[    0.312533] acpiphp: Slot [3] registered
+[    0.315408] acpiphp: Slot [4] registered
+[    0.316260] acpiphp: Slot [5] registered
+[    0.319372] acpiphp: Slot [6] registered
+[    0.320296] acpiphp: Slot [7] registered
+[    0.323793] acpiphp: Slot [8] registered
+[    0.324284] acpiphp: Slot [9] registered
+[    0.327314] acpiphp: Slot [10] registered
+[    0.328290] acpiphp: Slot [11] registered
+[    0.332279] acpiphp: Slot [12] registered
+[    0.335376] acpiphp: Slot [13] registered
+[    0.336271] acpiphp: Slot [14] registered
+[    0.339520] acpiphp: Slot [15] registered
+[    0.340282] acpiphp: Slot [16] registered
+[    0.343103] acpiphp: Slot [17] registered
+[    0.344298] acpiphp: Slot [18] registered
+[    0.346861] acpiphp: Slot [19] registered
+[    0.348253] acpiphp: Slot [20] registered
+[    0.351136] acpiphp: Slot [21] registered
+[    0.352252] acpiphp: Slot [22] registered
+[    0.354817] acpiphp: Slot [23] registered
+[    0.356254] acpiphp: Slot [24] registered
+[    0.359531] acpiphp: Slot [25] registered
+[    0.360343] acpiphp: Slot [26] registered
+[    0.363209] acpiphp: Slot [27] registered
+[    0.364257] acpiphp: Slot [28] registered
+[    0.366931] acpiphp: Slot [29] registered
+[    0.368253] acpiphp: Slot [30] registered
+[    0.370960] acpiphp: Slot [31] registered
+[    0.372338] PCI host bridge to bus 0000:00
+[    0.374936] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.376008] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    0.379930] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    0.380007] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfbffffff window]
+[    0.384005] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.392737] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[    0.396006] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[    0.399618] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[    0.400004] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[    0.404142] * Found PM-Timer Bug on the chipset. Due to workarounds for a bug,
+[    0.404142] * this clock source is slow. Consider trying other clock sources
+[    0.408971] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+[    0.417826] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+[    0.423035] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+[    0.427049] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+[    0.431375] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+[    0.453113] ACPI: Enabled 2 GPEs in block 00 to 0F
+[    0.456061] xen:balloon: Initialising balloon driver
+[    0.468313] vgaarb: setting as boot device: PCI:0000:00:02.0
+[    0.472000] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+[    0.472015] vgaarb: loaded
+[    0.473945] vgaarb: bridge control possible 0000:00:02.0
+[    0.476259] PCI: Using ACPI for IRQ routing
+[    0.480750] NetLabel: Initializing
+[    0.484005] NetLabel:  domain hash size = 128
+[    0.486763] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.488016] NetLabel:  unlabeled traffic allowed by default
+[    0.491057] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+[    0.492014] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+[    0.496006] hpet0: 3 comparators, 64-bit 62.500000 MHz counter
+[    0.502184] clocksource: Switched to clocksource xen
+[    0.508597] VFS: Disk quotas dquot_6.6.0
+[    0.511337] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.515296] pnp: PnP ACPI init
+[    0.517401] system 00:00: [mem 0x00000000-0x0009ffff] could not be reserved
+[    0.521426] system 00:01: [io  0x08a0-0x08a3] has been reserved
+[    0.524999] system 00:01: [io  0x0cc0-0x0ccf] has been reserved
+[    0.529272] system 00:01: [io  0x04d0-0x04d1] has been reserved
+[    0.534632] system 00:07: [io  0x10c0-0x1141] has been reserved
+[    0.543974] system 00:07: [io  0xb044-0xb047] has been reserved
+[    0.580115] pnp: PnP ACPI: found 8 devices
+[    0.589466] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.595527] NET: Registered protocol family 2
+[    0.598575] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.603109] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+[    0.607007] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.611093] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.614849] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.619157] NET: Registered protocol family 1
+[    0.622188] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[    0.625522] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+[    0.628687] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+[    0.632385] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    0.638088] Unpacking initramfs...
+[    0.792059] random: fast init done
+[    0.850514] Freeing initrd memory: 14396K
+[    0.853876] audit: initializing netlink subsys (disabled)
+[    0.856948] audit: type=2000 audit(1519145481.924:1): initialized
+[    0.861312] Initialise system trusted keyrings
+[    0.864715] workingset: timestamp_bits=36 max_order=18 bucket_order=0
+[    0.905733] Key type asymmetric registered
+[    0.908364] Asymmetric key parser 'x509' registered
+[    0.911362] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+[    0.915880] io scheduler noop registered (default)
+[    0.918764] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    0.922243] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[    0.926504] xen:grant_table: Grant tables using version 1 layout
+[    0.930080] Grant table initialized
+[    0.932398] Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+[    0.935592] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    0.965187] 00:06: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    0.970318] xen_netfront: Initialising Xen virtual ethernet driver
+[    0.975015] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[    0.981747] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.984700] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    0.987659] hidraw: raw HID events driver (C) Jiri Kosina
+[    0.991180] Invalid max_queues (4), will use default max: 1.
+[    0.995368] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+[    1.001973] NET: Registered protocol family 17
+[    1.005218] microcode: sig=0x306f2, pf=0x1, revision=0x3b
+[    1.008828] microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+[    1.014214] registered taskstats version 1
+[    1.016929] Loading compiled-in X.509 certificates
+[    1.021525] alg: No test for pkcs1pad(rsa,sha256) (pkcs1pad(rsa-generic,sha256))
+[    1.027551] Loaded X.509 cert 'Build time autogenerated kernel key: 90a8ce1f8c89128b6c9d51818805938ea4d0459c'
+[    1.034755] zswap: default zpool zbud not available
+[    1.038673] zswap: pool creation failed
+[    1.066065] blkfront: xvda: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: enabled;
+[    1.076806]  xvda: xvda1
+[    1.145649] Freeing unused kernel memory: 1280K
+[    1.148079] Write protecting the kernel read-only data: 10240k
+[    1.151938] Freeing unused kernel memory: 632K
+[    1.157710] Freeing unused kernel memory: 1624K
+[    1.173351] dm_mod: module verification failed: signature and/or required key missing - tainting kernel
+[    1.179581] device-mapper: uevent: version 1.0.3
+[    1.182396] device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
+[    1.191414] udevd[826]: starting version 173
+[    1.244656] SCSI subsystem initialized
+[    1.299727] scsi host0: ata_piix
+[    1.319297] scsi host1: ata_piix
+[    1.321438] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc100 irq 14
+[    1.325324] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc108 irq 15
+growroot: NOCHANGE: disk=/dev/xvda partition=1: size=16773086, it cannot be grown
+[    1.534479] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+[    1.543633] dracut: Remounting /dev/disk/by-label/\x2f with -o noatime,ro
+[    1.551330] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+[    1.559394] dracut: Mounted root filesystem /dev/xvda1
+[    1.586233] dracut: Switching root
+image_name="amzn-ami-hvm"
+image_version="2017.09"
+image_arch="x86_64"
+image_file="amzn-ami-hvm-2017.09.1.20180115-x86_64.ext4.gpt"
+image_stamp="eeb4-18f0"
+image_date="20180115184347"
+recipe_name="amzn ami"
+recipe_id="c9c871d2-7d71-8baa-e873-c70f-cbbe-ddb2-79ee86e7"
+		Welcome to Amazon Linux AMI
+Starting udev: [    1.732972] udevd[1551]: starting version 173
+[    1.792149] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[    1.799207] ACPI: Power Button [PWRF]
+[    1.802759] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4
+[    1.809256] ACPI: Sleep Button [SLPF]
+[    1.823592] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+[    1.943101] tsc: Refined TSC clocksource calibration: 2400.003 MHz
+[    1.946764] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22983a63db9, max_idle_ns: 440795301698 ns
+[    1.980657] mousedev: PS/2 mouse device common for all mice
+[  OK  ]
+Setting hostname localhost.localdomain:  [  OK  ]
+Setting up Logical Volume Management:   WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+[  OK  ]
+Checking filesystems
+Checking all file systems.
+[/sbin/fsck.ext4 (1) -- /] fsck.ext4 -a /dev/xvda1 
+/: clean, 37021/524288 files, 321985/2096635 blocks
+[  OK  ]
+Remounting root filesystem in read-write mode:  [    3.009469] EXT4-fs (xvda1): re-mounted. Opts: (null)
+[  OK  ]
+Mounting local filesystems:  [  OK  ]
+Enabling local filesystem quotas:  [  OK  ]
+Enabling /etc/fstab swaps:  [  OK  ]
+Entering non-interactive startup
+Starting LVM metadata daemon: [  OK  ]
+Starting LVM poll daemon: [  OK  ]
+[    3.201879] NET: Registered protocol family 10
+Bringing up loopback interface:  [  OK  ]
+Bringing up interface eth0:  
+Determining IP information for eth0... done.
+
+Determining IPv6 information for eth0... done.
+[  OK  ]
+Starting auditd: [    5.155930] audit: type=1305 audit(1519145486.220:2): audit_pid=2256 old=0 auid=4294967295 ses=4294967295 res=1
+2018/02/20 16:51:26Z: Amazon SSM Agent v2.2.120.0 is running
+2018/02/20 16:51:26Z: OsProductName: Amazon Linux AMI
+2018/02/20 16:51:26Z: OsVersion: 2017.09
+[  OK  ]
+Starting system logger: [  OK  ]
+Starting irqbalance: [  OK  ]
+Starting rngd: Unable to open file: /dev/hwrng
+[  OK  ]
+[    5.393985] random: crng init done
+Starting rpcbind: [  OK  ]
+Starting NFS statd: [  OK  ]
+Starting system message bus: [  OK  ]
+Mounting filesystems:  [  OK  ]
+Starting acpi daemon: [  OK  ]
+Retrigger failed udev events--type=failed is deprecated and will be removed from a future udev release.
+[  OK  ]
+Starting cloud-init: Cloud-init v. 0.7.6 running 'init-local' at Tue, 20 Feb 2018 16:51:26 +0000. Up 5.89 seconds.
+Starting cloud-init: Cloud-init v. 0.7.6 running 'init' at Tue, 20 Feb 2018 16:51:27 +0000. Up 6.08 seconds.
+ci-info: ++++++++++++++++++++++++Net device info++++++++++++++++++++++++
+ci-info:  Device   Up      Address          Mask          Hw-Address    
+ci-info:    lo    True    127.0.0.1      255.0.0.0            .         
+ci-info:   eth0   True  172.31.47.119  255.255.240.0  06:38:cd:c2:70:1c 
+ci-info: +++++++++++++++++++++++++++++++Route info+++++++++++++++++++++++++++++++
+ci-info:  Route    Destination      Gateway        Genmask      Interface  Flags 
+ci-info:    0        0.0.0.0      172.31.32.1      0.0.0.0         eth0      UG  
+ci-info:    1    169.254.169.254    0.0.0.0    255.255.255.255     eth0      UH  
+ci-info:    2      172.31.32.0      0.0.0.0     255.255.240.0      eth0      U   
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:9BRRQpxoWKFWsED/V9C7W+SQdHRi1YP1A98XWi3SCkA root@ip-172-31-47-119
+The key's randomart image is:
++---[RSA 2048]----+
+|   .o .=E**=.+*==|
+|     o.+o +++oO+*|
+|      =.. .o.B +=|
+|     . o o .= . o|
+|        S o  =   |
+|         .  . o  |
+|             o   |
+|            .    |
+|                 |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:a4DkD3lBrVZr3JlMFLAHZULURJX9G3HWRj4DC10sKVo root@ip-172-31-47-119
+The key's randomart image is:
++---[DSA 1024]----+
+|      .+*BB+o++oo|
+|     .  o=oEo+++=|
+|    . .+.=+o...*+|
+|   o oo.+o=    .+|
+|    =.o.S       o|
+|     + . .     . |
+|      . o        |
+|       .         |
+|                 |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:RLvP83EzWet7fLEHvxbFSiqyYNLaSjCjWclyLRnsvyM root@ip-172-31-47-119
+The key's randomart image is:
++---[ECDSA 256]---+
+|        .        |
+| .     . .       |
+|  o     o      . |
+| o =   . .    . o|
+|. % ..  S    o .o|
+| * *. + .o. . o=.|
+|o   o= . o+.. ==+|
+|  E.o.. .  o o.=*|
+|   .oo      . .+*|
++----[SHA256]-----+
+Starting cloud-init: Cloud-init v. 0.7.6 running 'modules:config' at Tue, 20 Feb 2018 16:51:28 +0000. Up 7.09 seconds.
+Loaded plugins: priorities, update-motd, upgrade-helper
+1 package(s) needed (+0 related) for security, out of 5 available
+Resolving Dependencies
+--> Running transaction check
+---> Package kernel-tools.x86_64 0:4.9.76-3.78.amzn1 will be updated
+---> Package kernel-tools.x86_64 0:4.9.77-31.58.amzn1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package           Arch        Version                  Repository         Size
+================================================================================
+Updating:
+ kernel-tools      x86_64      4.9.77-31.58.amzn1       amzn-updates      106 k
+
+Transaction Summary
+================================================================================
+Upgrade  1 Package
+
+Total download size: 106 k
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : kernel-tools-4.9.77-31.58.amzn1.x86_64                       1/2 
+  Cleanup    : kernel-tools-4.9.76-3.78.amzn1.x86_64                        2/2 
+  Verifying  : kernel-tools-4.9.77-31.58.amzn1.x86_64                       1/2 
+  Verifying  : kernel-tools-4.9.76-3.78.amzn1.x86_64                        2/2 
+
+Updated:
+  kernel-tools.x86_64 0:4.9.77-31.58.amzn1                                      
+
+Complete!
+Generating SSH2 ED25519 host key: [  OK  ]
+Starting sshd: [  OK  ]
+Starting ntpd: [  OK  ]
+Starting sendmail: [  OK  ]
+Starting sm-client: [  OK  ]
+Starting crond: [  OK  ]
+Starting atd: [  OK  ]
+Starting cloud-init: Cloud-init v. 0.7.6 running 'modules:final' at Tue, 20 Feb 2018 16:51:33 +0000. Up 12.04 seconds.
+ci-info: +++Authorized keys from /home/ec2-user/.ssh/authorized_keys for user ec2-user+++
+ci-info:  Keytype                 Fingerprint (md5)                 Options    Comment   
+ci-info:  ssh-rsa  93:12:df:6f:36:25:df:e8:f1:49:d5:fb:d3:19:ce:77     -     lyle_mendix 
+ec2: 
+ec2: #############################################################
+ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+ec2: 1024 SHA256:a4DkD3lBrVZr3JlMFLAHZULURJX9G3HWRj4DC10sKVo root@ip-172-31-47-119 (DSA)
+ec2: 256 SHA256:RLvP83EzWet7fLEHvxbFSiqyYNLaSjCjWclyLRnsvyM root@ip-172-31-47-119 (ECDSA)
+ec2: 256 SHA256:IOkmoGFi8lSuEPkf4Y+OL01CaZtK+L1Hs71ZbFhPlJc no comment (ED25519)
+ec2: 2048 SHA256:9BRRQpxoWKFWsED/V9C7W+SQdHRi1YP1A98XWi3SCkA root@ip-172-31-47-119 (RSA)
+ec2: -----END SSH HOST KEY FINGERPRINTS-----
+ec2: #############################################################
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKEVtocHbk+o1mE06seC/g2xZF5BxoWGqHdS/xNHOs+lgA8iZlXi8CFgHinuEdk0KpRAJ2BC2iE3CeQpJpxQ4Ug= root@ip-172-31-47-119
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPKsJP5Am2my7RgWXTLjC6PEBBrLoheKz0piWfbRAVPx 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC84/B8OWtALzMAatFMzft39nrrCAz3WC53wgz9KSW19XxbHl3rI4X2Ajcbz3FmBj+g/qYgeRAR8C77HQG4U9EeTxJo6qOAKgceiOt4z1vUUu/6WAH3UVfW/ZY3gjwF6gA5WjnTqWLwepvGDj/GpuvV8MndD1pvztG9Bwb7zhJ0a/ukcLwYPJqFYGvJ9QKp0dtyzQyz7Z0lg1cuKDquxK0BtZsDfBaDji0SQHrbF/ZIhwk0QLHZO2ZazNQ/Gsc+Ho1mOoAwOUKFPTaVn7fMAs5CW6ZMhWB+H+0lLhrl2WicawQTHbzSErdLyyFr5ZSCDS2RZ2PD2ehGahVOGFg7xu81 root@ip-172-31-47-119
+-----END SSH HOST KEY KEYS-----
+Cloud-init v. 0.7.6 finished at Tue, 20 Feb 2018 16:51:33 +0000. Datasource DataSourceEc2.  Up 12.36 seconds
+
+Amazon Linux AMI release 2017.09
+Kernel 4.9.76-3.78.amzn1.x86_64 on an x86_64
+
+ip-172-31-47-119 login: 	2018-02-20T16:54:21.000Z
+(venv) ➜  .ssh ssh -i lyle_mendix.pem ec2-user@18.197.45.76                            
+The authenticity of host '18.197.45.76 (18.197.45.76)' can't be established.
+ECDSA key fingerprint is SHA256:P979R6L8Sc/tlJyL5v9R74K7nCfTQo1GwHiPBoh9UQU.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '18.197.45.76' (ECDSA) to the list of known hosts.
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-ami/2017.09-release-notes/
+4 package(s) needed for security, out of 5 available
+Run "sudo yum update" to apply all updates.
+[ec2-user@ip-172-31-44-0 ~]$ ls
+[ec2-user@ip-172-31-44-0 ~]$ cd /home/ec2-user/^C
+[ec2-user@ip-172-31-44-0 ~]$ sudo yum update
+Loaded plugins: priorities, update-motd, upgrade-helper
+Resolving Dependencies
+--> Running transaction check
+---> Package elfutils-libelf.x86_64 0:0.163-3.18.amzn1 will be updated
+---> Package elfutils-libelf.x86_64 0:0.168-8.19.amzn1 will be an update
+---> Package kernel.x86_64 0:4.9.77-31.58.amzn1 will be installed
+---> Package python27.x86_64 0:2.7.12-2.121.amzn1 will be updated
+---> Package python27.x86_64 0:2.7.13-2.122.amzn1 will be an update
+---> Package python27-devel.x86_64 0:2.7.12-2.121.amzn1 will be updated
+---> Package python27-devel.x86_64 0:2.7.13-2.122.amzn1 will be an update
+---> Package python27-libs.x86_64 0:2.7.12-2.121.amzn1 will be updated
+---> Package python27-libs.x86_64 0:2.7.13-2.122.amzn1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+========================================================================================================================================================================
+ Package                                   Arch                             Version                                        Repository                              Size
+========================================================================================================================================================================
+Installing:
+ kernel                                    x86_64                           4.9.77-31.58.amzn1                             amzn-updates                            18 M
+Updating:
+ elfutils-libelf                           x86_64                           0.168-8.19.amzn1                               amzn-updates                           313 k
+ python27                                  x86_64                           2.7.13-2.122.amzn1                             amzn-updates                           103 k
+ python27-devel                            x86_64                           2.7.13-2.122.amzn1                             amzn-updates                           525 k
+ python27-libs                             x86_64                           2.7.13-2.122.amzn1                             amzn-updates                           6.8 M
+
+Transaction Summary
+========================================================================================================================================================================
+Install  1 Package
+Upgrade  4 Packages
+
+Total download size: 26 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/5): elfutils-libelf-0.168-8.19.amzn1.x86_64.rpm                                                                                               | 313 kB  00:00:00     
+(2/5): python27-2.7.13-2.122.amzn1.x86_64.rpm                                                                                                    | 103 kB  00:00:00     
+(3/5): python27-devel-2.7.13-2.122.amzn1.x86_64.rpm                                                                                              | 525 kB  00:00:00     
+(4/5): python27-libs-2.7.13-2.122.amzn1.x86_64.rpm                                                                                               | 6.8 MB  00:00:01     
+(5/5): kernel-4.9.77-31.58.amzn1.x86_64.rpm                                                                                                      |  18 MB  00:00:04     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                   5.9 MB/s |  26 MB  00:00:04     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : python27-2.7.13-2.122.amzn1.x86_64                                                                                                                   1/9 
+  Updating   : python27-libs-2.7.13-2.122.amzn1.x86_64                                                                                                              2/9 
+  Updating   : python27-devel-2.7.13-2.122.amzn1.x86_64                                                                                                             3/9 
+  Updating   : elfutils-libelf-0.168-8.19.amzn1.x86_64                                                                                                              4/9 
+  Installing : kernel-4.9.77-31.58.amzn1.x86_64                                                                                                                     5/9 
+  Cleanup    : python27-devel-2.7.12-2.121.amzn1.x86_64                                                                                                             6/9 
+  Cleanup    : python27-libs-2.7.12-2.121.amzn1.x86_64                                                                                                              7/9 
+  Cleanup    : python27-2.7.12-2.121.amzn1.x86_64                                                                                                                   8/9 
+  Cleanup    : elfutils-libelf-0.163-3.18.amzn1.x86_64                                                                                                              9/9 
+  Verifying  : python27-devel-2.7.13-2.122.amzn1.x86_64                                                                                                             1/9 
+  Verifying  : kernel-4.9.77-31.58.amzn1.x86_64                                                                                                                     2/9 
+  Verifying  : python27-libs-2.7.13-2.122.amzn1.x86_64                                                                                                              3/9 
+  Verifying  : python27-2.7.13-2.122.amzn1.x86_64                                                                                                                   4/9 
+  Verifying  : elfutils-libelf-0.168-8.19.amzn1.x86_64                                                                                                              5/9 
+  Verifying  : python27-devel-2.7.12-2.121.amzn1.x86_64                                                                                                             6/9 
+  Verifying  : python27-libs-2.7.12-2.121.amzn1.x86_64                                                                                                              7/9 
+  Verifying  : python27-2.7.12-2.121.amzn1.x86_64                                                                                                                   8/9 
+  Verifying  : elfutils-libelf-0.163-3.18.amzn1.x86_64                                                                                                              9/9 
+
+Installed:
+  kernel.x86_64 0:4.9.77-31.58.amzn1                                                                                                                                    
+
+Updated:
+  elfutils-libelf.x86_64 0:0.168-8.19.amzn1 python27.x86_64 0:2.7.13-2.122.amzn1 python27-devel.x86_64 0:2.7.13-2.122.amzn1 python27-libs.x86_64 0:2.7.13-2.122.amzn1
+
+Complete!
+[ec2-user@ip-172-31-44-0 ~]$ sudo yum install ruby
+Loaded plugins: priorities, update-motd, upgrade-helper
+Package 1:ruby-2.0-0.3.amzn1.noarch already installed and latest version
+Nothing to do
+[ec2-user@ip-172-31-44-0 ~]$ pwd
+/home/ec2-user
+[ec2-user@ip-172-31-44-0 ~]$ wget https://bucket-name.s3.amazonaws.com/latest/install
+--2018-02-20 17:54:12--  https://bucket-name.s3.amazonaws.com/latest/install
+Resolving bucket-name.s3.amazonaws.com (bucket-name.s3.amazonaws.com)... 52.216.130.51
+Connecting to bucket-name.s3.amazonaws.com (bucket-name.s3.amazonaws.com)|52.216.130.51|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2018-02-20 17:54:12 ERROR 403: Forbidden.
+
+[ec2-user@ip-172-31-44-0 ~]$ sudo yum install wget
+Loaded plugins: priorities, update-motd, upgrade-helper
+Package wget-1.18-3.28.amzn1.x86_64 already installed and latest version
+Nothing to do
+[ec2-user@ip-172-31-44-0 ~]$ wget https://aws-codedeploy-eu-central-1.s3.amazonaws.com/latest/install
+--2018-02-20 17:57:28--  https://aws-codedeploy-eu-central-1.s3.amazonaws.com/latest/install
+Resolving aws-codedeploy-eu-central-1.s3.amazonaws.com (aws-codedeploy-eu-central-1.s3.amazonaws.com)... 52.219.74.6
+Connecting to aws-codedeploy-eu-central-1.s3.amazonaws.com (aws-codedeploy-eu-central-1.s3.amazonaws.com)|52.219.74.6|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13510 (13K) []
+Saving to: ‘install’
+
+install                                   100%[=====================================================================================>]  13,19K  --.-KB/s    in 0s      
+
+2018-02-20 17:57:28 (112 MB/s) - ‘install’ saved [13510/13510]
+
+[ec2-user@ip-172-31-44-0 ~]$

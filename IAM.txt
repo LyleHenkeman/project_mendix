@@ -1,6 +1,6 @@
 // Policy Role for Code Deploy
 {
-  "Version": "2018-02-20",
+  "Version": "2012-10-17",
   "Statement": [
     {
       "Action": [
@@ -21,7 +21,7 @@
 
 // Policy Trust for Code Deploy
 {
-  "Version": "2018-02-20",
+  "Version": "2012-10-17",
   "Statement": [
     {
       "Sid": "",
@@ -39,7 +39,7 @@
 
 // Instance Role for EC2 Instance
 { 
-    "Version": "2018-02-20", 
+    "Version": "2012-10-17", 
     "Statement": [   
       {     
           "Action": [       
