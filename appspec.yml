@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: /sorter.py
+  - destination: /tmp/deployment
+hooks:
+  BeforeInstall:
+      - location: requirements.txt
+        timeout: 300
+        runas: root
+      - location: scripts/aws_deploy.sh
+        timeout: 300
+        runas: root
